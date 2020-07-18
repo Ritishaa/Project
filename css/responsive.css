@@ -1,0 +1,483 @@
+@media screen and (max-width:767px){
+  .get_tab .tab-content {
+       overflow-x: auto;
+}
+.navbar-toggler-icon {
+    content:''!important;
+	background:url(../img/menu.png) no-repeat center center!important;
+	position:relative!important;
+	display:block!important;
+	height:32px!important;
+	width:32px!important;	
+}
+header {
+    position: static;
+}
+.scrolltotop {
+    font-size: 25px;
+    height: 35px;
+    width: 35px;
+}
+.bg_awards {
+    padding: 30px 0;
+}
+.get_tab .table td {
+    padding: 5px 5px;
+}
+.banner_text {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.banner_text h6 {
+    margin-top: 30px;
+}
+.bg_banner {
+    background-size: 50%;
+    height: auto;
+    background-position: top right;
+}
+.nav-tabs .nav-item {
+    width: 100%;
+}
+.get_tab .nav-tabs .nav-link {
+    padding: 5px 0px;
+}
+.get_tab hr {
+    margin-bottom: 30px;
+}
+.get_tab {
+    padding-top: 35px;
+}
+.awards hr {
+    margin-bottom: 30px;
+}
+.awards {
+    text-align: center;
+}
+.awardspic img {
+    width: 100%;
+    float: none;
+}
+.bg_app {
+	background-size: cover;
+    padding: 20px;
+    margin-top: 0;
+}
+.app {
+    margin-top: 20px;
+    text-align: center;
+}
+.app input {
+    width: 100%!important;
+}
+.app button {
+	 width: 100%!important;
+    margin-top: 5px;
+}
+.app img {
+    width: 112px;
+}
+.fot_social ul {
+    float: none;
+    padding-right: 0;
+    padding: 0;
+}
+.app_pic img {
+    display: none;
+}
+.app h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.subfooter {
+    padding: 15px 0;
+}
+.bgborder {
+    padding: 15px 15px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.tab-pane span {
+    float: none;
+    display: block;
+    padding: 5px 0;
+}
+.tab-pane ul li {
+    line-height: 20px;
+}
+.Updates .nav-tabs .nav-link {
+    margin-right: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+.awards h3 {
+    font-size: 25px;
+    margin-top: 0px;
+}
+.ff:after {
+    left: -180px;
+}
+.bg_tab{
+    padding: 0 20px;
+}
+header .loginbtn {
+    padding: 5px 20px;
+    margin-left: 0;
+    float: none;
+}
+.navbar  .navbar-nav .nav-link{
+	border-bottom: solid 1px #eee;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.navbar  .navbar-nav .nav-item:last-child{
+    border-bottom: 0;
+	margin-top:15px;
+}
+header .dropdown-menu {
+    margin-top: 0;
+    padding: 5px;
+    box-shadow: none;
+    border: 0;
+    background: #f7f7f7;
+}
+header .navbar-collapse form select.form-control {
+    width: 45px;
+    padding: 0;
+    position: absolute;
+}
+header .navbar-collapse form input.form-control {
+    margin-left: 45px;
+    width: 100%;
+}
+header .navbar-collapse form .icon {
+    position: absolute;
+    left: auto;
+    right: 0;
+}
+header .navbar-toggler {
+    padding: 0;
+}
+.banner_text:after {
+	display:none;
+}
+
+.bg_title {
+    padding-top: 15px;
+    height: auto;
+    background-size: cover;
+}
+.title h2 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+.title p {
+    font-size: 13px;
+    margin: 0;
+}
+.title ul li {
+    font-size: 13px;
+}
+.title_btn ul {
+	padding:0;
+}
+.title_btn .bgcolr {
+    margin-top: 20px;
+    padding: 7px 15px;
+    font-size: 10px;
+}
+.title_btn .bordrcolr {
+    margin-top: 20px;
+    padding: 7px 15px;
+    font-size: 10px;
+}
+.preparfer .get_tab .nav-tabs .nav-link {
+    padding: 10px 0px;
+}
+.preparfer p {
+    padding: 15px 0;
+	font-size: 14px;
+    margin-bottom: 0;
+}
+.bg_preparefor {
+    padding: 20px;
+    margin: 20px 0;
+}
+.bg_preparefor .owl-carousel .owl-nav .owl-next {
+    right: 0;
+	position: static;
+}
+.bg_preparefor .owl-carousel .owl-nav .owl-prev {
+    left: 0;
+	position: static;
+}
+.bg_preparefor .owl-theme .owl-dots{
+	display:none;
+}
+.bg_preparefor .owl-theme .owl-dots, .bg_preparefor .owl-theme .owl-nav {
+    position: static;
+    top: 0;
+    width: 100%;
+}
+.bg_preparefor {
+    text-align: center;
+}
+.bg_preparefor .item ul li {
+    text-align: left;
+}
+.bg_preparefor .item h4  {
+    text-align: left;
+}
+.bg_video {
+    padding: 10px;
+    margin: 20px 0;
+	margin-bottom:0;
+}
+.mockups {
+    width: 100%;
+    float: none;
+	    margin-top: 20px;
+}
+.css-mb .mb-screen {
+	    margin-left: 0;
+    width: 100%;
+}
+.css-mb .mb-display {
+    width: 100%;
+}
+#mockup-slider video {
+    width: 83%;
+    height: auto;
+    margin-left: 9%;
+}
+.css-mb .mb-screen{
+	background: none;
+	position: static;
+}
+.video a {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+#sidebar-wrapper {
+    top: 0;
+}
+#sidebar-wrapper.active {
+    top: 0;
+}
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	header .navbar-brand img {
+    width: 70px;
+    margin-right: 0;
+}
+header .navbar-collapse form select.form-control {
+    width: 44px;
+    padding: 0;
+    font-size: 10px;
+}
+header .navbar-collapse form input.form-control {
+    width: 100px;
+}
+header .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+header .navbar-collapse ul li a {
+    font-size: 9px;
+}
+header .loginbtn {
+    padding: 5px 7px;
+    margin-left: 0px;
+	margin-top: 8px;
+}
+.navbar-expand-md .navbar-nav {
+    margin-left: -17px;
+}
+header ::placeholder{
+	font-size:10px;
+}
+header .navbar-collapse form .icon {
+    left:-31px;
+    font-size: 12px;
+}
+.vf{
+    padding-top: 9px!important;
+}
+header .dropdown-menu {
+    margin-top: 0;
+    padding: 0px 7px;
+}
+.banner_text {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.bg_banner {
+    height: auto;
+    background-position: 100% 50%;
+}
+.get_tab .nav-tabs .nav-link {
+    padding: 15px 15px;
+}
+.get_tab .table td {
+    padding: 15px 10px;
+}
+.get_tab hr {
+    margin-bottom: 40px;
+}
+.awards hr {
+    margin-bottom: 40px;
+}
+.Updates hr {
+    margin-bottom: 40px;
+}
+.tab-pane ul li {
+    font-size: 12px;
+}
+.bg_app {
+    background-size: cover;
+    padding: 30px;
+}
+.app button {
+    width: 140px!important;
+    font-size: 14px;
+}
+.app input {
+    width: 180px!important;
+}
+
+.bg_title {
+padding-top: 35px;
+    height: auto;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.title_btn .bordrcolr {
+	    margin-top: 83px;
+    padding: 10px 10px;
+    font-size: 10px;
+}
+.title_btn .bgcolr {
+	    margin-top: 83px;
+    padding: 10px 10px;
+    font-size: 10px;
+}
+.preparfer .get_tab .nav-tabs .nav-link {
+    padding: 10px 15px;
+}
+ .preparfer{
+    padding-top: 50px;
+}
+.bg_video {
+    padding: 50px 15px;
+}
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1150px){
+	header .navbar-brand img {
+    width: 100px;
+    margin-right: 0;
+}
+header .navbar-collapse form select.form-control {
+    width: 44px;
+    padding: 0;
+    font-size: 10px;
+}
+header .navbar-collapse form input.form-control {
+    width: 145px;
+}
+header .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+header .navbar-collapse ul li a {
+    font-size: 13px;
+}
+header .loginbtn {
+    padding: 5px 16px;
+    margin-left: 0px;
+	margin-top: 8px;
+}
+.navbar-expand-md .navbar-nav {
+    margin-left: -17px;
+}
+header ::placeholder{
+	font-size:12px;
+}
+header .navbar-collapse form .icon {
+    left: -36px;
+    font-size: 12px;
+}
+.vf{
+    padding-top: 7px!important;
+}
+header .dropdown-menu {
+    margin-top: 0;
+    padding: 0px 7px;
+}
+.banner_text {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.bg_banner {
+    height: auto;
+    background-position: 100% 50%;
+}
+.get_tab .nav-tabs .nav-link {
+    padding: 15px 36px;
+}
+.get_tab .table td {
+    padding: 15px 10px;
+}
+.get_tab hr {
+    margin-bottom: 40px;
+}
+.awards hr {
+    margin-bottom: 40px;
+}
+.Updates hr {
+    margin-bottom: 40px;
+}
+.tab-pane ul li {
+    font-size: 12px;
+}
+.bg_app {
+    background-size: cover;
+    padding: 30px;
+}
+.app button {
+    width: 140px!important;
+    font-size: 14px;
+}
+.app input {
+    width: 180px!important;
+}
+.preparfer .get_tab .nav-tabs .nav-link {
+    padding: 10px 18px;
+}
+.bg_title {
+padding-top: 80px;
+    height: auto;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.title_btn .bordrcolr {
+	    margin-top: 83px;
+    padding: 10px 30px;
+    font-size: 12px;
+}
+.title_btn .bgcolr {
+	    margin-top: 83px;
+    padding: 10px 30px;
+    font-size: 12px;
+}
+.preparfer{
+    padding-top: 50px;
+}
+}

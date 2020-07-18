@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Arkibal Medium Stencil';
+    src: url('../font/ArkibalMediumStencil-Medium.woff2') format('woff2'),
+        url('../font/ArkibalMediumStencil-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal';
+    src: url('../font/Arkibal-Thin.woff2') format('woff2'),
+        url('../font/Arkibal-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Stencil';
+    src: url('../font/ArkibalStencil-Heavy.woff2') format('woff2'),
+        url('../font/ArkibalStencil-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Rg';
+    src: url('../font/Arkibal-Medium.woff2') format('woff2'),
+        url('../font/Arkibal-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Rg';
+    src: url('../font/Arkibal-Bold.woff2') format('woff2'),
+        url('../font/Arkibal-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Stencil Lt';
+    src: url('../font/ArkibalStencil-Light.woff2') format('woff2'),
+        url('../font/ArkibalStencil-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Rg';
+    src: url('../font/Arkibal-Heavy.woff2') format('woff2'),
+        url('../font/Arkibal-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Stencil';
+    src: url('../font/ArkibalStencil-Thin.woff2') format('woff2'),
+        url('../font/ArkibalStencil-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Lt';
+    src: url('../font/Arkibal-Light.woff2') format('woff2'),
+        url('../font/Arkibal-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Stencil Rg';
+    src: url('../font/ArkibalStencil-Regular.woff2') format('woff2'),
+        url('../font/ArkibalStencil-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Stencil';
+    src: url('../font/ArkibalStencil-Bold.woff2') format('woff2'),
+        url('../font/ArkibalStencil-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arkibal Rg';
+    src: url('../font/Arkibal-Regular.woff2') format('woff2'),
+        url('../font/Arkibal-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

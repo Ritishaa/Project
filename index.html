@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="icon" href="img/favicon.png" sizes="25X41">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Xamwinner - Home</title>
+  </head>
+  <body>
+  
+  <header>
+   <div class="container">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" title="Xamwinner"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+           <form class="form-inline">
+            <select class="form-control">
+             <option selected >ALL</option>
+             <option>1</option>
+             <option>2</option>
+            </select>
+            <input class="form-control" type="text" placeholder="Search here" aria-label="Search">
+            <button class="icon" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+          <ul class="navbar-nav mr-auto">
+            <li class="dropdown nav-link">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prepare for <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown nav-link">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contest & Win <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item vf" style="padding-top: 3px;">
+              <a class="nav-link" href="#">Our Specials</a>
+            </li>
+            <li class="dropdown nav-link">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Latest News <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="loginbtn toggle" href="#" id="menu-toggle">Login/Signup</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>  
+  </header>
+  
+  
+<!--  <div class="buttons">
+  <a href="#" onclick="toggleVisibility('Menu1');">Menu1</a>
+  <a href="#" onclick="toggleVisibility('Menu2');">Menu2</a>
+  <a href="#" onclick="toggleVisibility('Menu3');">Menu3</a>
+  <a href="#" onclick="toggleVisibility('Menu4');">Menu4</a>
+</div>
+ 
+  <div id="Menu1">I'm container one</div>
+  <div id="Menu2" style="display: none;">I'm container two</div>
+  <div id="Menu3" style="display: none;">I'm container three</div>
+  <div id="Menu4" style="display: none;">I'm container four</div>
+-->
+
+<!-- LOGIN SIDEBAR START HERE-->
+<div id="sidebar-wrapper">
+   <!-- FORM 1 START-->
+      <div class="login_popup" id="Menu1">
+        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fas fa-times"></i></a>
+        <h2>Login <a href="#" onclick="toggleVisibility('Menu3');">create an account</a></h2>
+        <a href="#" class="m1 google"><img src="img/google.png"> <b> Log in with Google </b></a>
+        <a href="#" class="m1 facebook"><img src="img/facebook.png"> <b>Log in with Facebook</b></a>
+        <p><span></span>&nbsp; OR &nbsp;<span></span></p>
+        <samp>+91</samp><input type="tel" class="form-control" placeholder="Enter your mobile number"> 
+        <button type="submit" class="form-control">Login</button>
+        <a href="#" class="Continue"  onclick="toggleVisibility('Menu2');">Continue with email</a> 
+      </div>
+    <!-- FORM 1 END-->
+    <!-- FORM 2 START-->
+        <div class="login_popup mail90" id="Menu2" style="display: none;">
+        <a id="menu-close2" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fas fa-times"></i></a>
+        <h2>Login <a href="#" onclick="toggleVisibility('Menu3');">create an account</a></h2>
+        <input type="email" class="form-control" placeholder="Your email address"> 
+        <input type="password" class="form-control" placeholder="Enter your password">
+        <a href="#" class="forgot_p"  onclick="toggleVisibility('Menu4');">Forgot password?</a> 
+        <button type="submit" class="form-control">Login</button>
+        <a href="#" class="Continue"  onclick="toggleVisibility('Menu1');">Continue with mobile number</a> 
+      </div>
+    <!-- FORM 2 END--> 
+    <!-- FORM 3 START-->
+      <div  class="login_popup mail90 create98"  id="Menu3"  style="display: none;">
+      <a id="menu-close3" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fas fa-times"></i></a>
+        <h2>Join <img src="img/logo_popup.png"> <a href="#" onclick="toggleVisibility('Menu2');"><b>or</b> login here</a></h2>
+        <input type="email" class="form-control" placeholder="Enter your email address"> 
+        <input type="password" class="form-control" placeholder="Create password">
+        <input type="password" class="form-control" placeholder="Repeat password">
+        <button type="submit" class="form-control">Continue</button>
+        <a href="#" class="Continue" onclick="toggleVisibility('Menu1');">back</a> 
+      </div>
+    <!-- FORM 3 END--> 
+    <!-- FORM 4 START--> 
+       <div class="login_popup reset_p"  id="Menu4" style="display: none;">
+       <a id="menu-close4" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fas fa-times"></i></a>
+        <h2>Forgot your password</h2>
+        <p>Reseting your password is easy, just tell us the email address you registered with xamwinner</p>
+        <input type="email" class="form-control" placeholder="Your email address"> 
+        <button type="submit" class="form-control">Send</button>
+      </div>
+    <!-- FORM 4 END--> 
+    
+</div>    
+<!-- LOGIN SIDEBAR END HERE-->
+
+
+  
+<section class="bg_banner">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-6">
+   <div class="banner_text">
+    <h6>BANKING</h6>
+    <h2>Online Classroom</h2>
+    <p>Prepare better with comprehensive video courses</p>
+    <a href="#">JOIN NOW</a>
+  </div>
+  </div>
+ <div class="col-sm-6">
+  <div class="banner_pic">
+   <img src="img/banner_img.png" alt="">
+  </div> 
+ </div>
+ </div> 
+ </div>
+</section> 
+
+
+<section class="bg_tab"> 
+  <div class="container">
+  <div class="row">
+   <div class="get_tab">
+     <h2>Get Selected In</h2>
+     <hr>    
+     <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#m1" role="tab" aria-controls="home" aria-selected="true">UPCOMING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#m2" role="tab" aria-controls="profile" aria-selected="false">BANKING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#m3" role="tab" aria-controls="contact" aria-selected="false">SSC</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#m4" role="tab" aria-controls="profile" aria-selected="false">RAILWAYS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#m5" role="tab" aria-controls="contact" aria-selected="false">INSURANCE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#m6" role="tab" aria-controls="contact" aria-selected="false">DEFENCE</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="m1" role="tabpanel" aria-labelledby="home-tab"> 
+       <table class="table">
+          <tbody>
+            <tr>
+                <td>IBPS PO</td>
+                <td>IBPS PO</td>
+                <td>IBPS Clerk</td>
+                <td>IBPS Clerk</td>
+                <td>RRB NTPC</td>
+                <td>RRB NTPC</td>
+            </tr>
+            <tr>
+                <td>SSC CGL	</td>
+                <td>SSC CGL</td>
+                <td>SSC CHSL</td>
+                <td> SSC CHSL</td>
+                <td> SSC JE</td>
+                <td> SSC JE</td>
+            </tr>
+            <tr>
+                <td>RRB Group D	</td>
+                <td>RRB Group D</td>
+                <td>CTET</td>
+                <td>UPTET</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="m2" role="tabpanel" aria-labelledby="profile-tab">
+      <table class="table">
+          <tbody>
+            <tr>
+                <td>IBPS PO</td>
+                <td>IBPS PO</td>
+                <td>IBPS Clerk</td>
+                <td>IBPS Clerk</td>
+                <td>RRB NTPC</td>
+                <td>RRB NTPC</td>
+            </tr>
+            <tr>
+                <td>SSC CGL	</td>
+                <td>SSC CGL</td>
+                <td>SSC CHSL</td>
+                <td> SSC CHSL</td>
+                <td> SSC JE</td>
+                <td> SSC JE</td>
+            </tr>
+            <tr>
+                <td>RRB Group D	</td>
+                <td>RRB Group D</td>
+                <td>CTET</td>
+                <td>UPTET</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="m3" role="tabpanel" aria-labelledby="contact-tab">
+      <table class="table">
+          <tbody>
+            <tr>
+                <td>IBPS PO</td>
+                <td>IBPS PO</td>
+                <td>IBPS Clerk</td>
+                <td>IBPS Clerk</td>
+                <td>RRB NTPC</td>
+                <td>RRB NTPC</td>
+            </tr>
+            <tr>
+                <td>SSC CGL	</td>
+                <td>SSC CGL</td>
+                <td>SSC CHSL</td>
+                <td> SSC CHSL</td>
+                <td> SSC JE</td>
+                <td> SSC JE</td>
+            </tr>
+            <tr>
+                <td>RRB Group D	</td>
+                <td>RRB Group D</td>
+                <td>CTET</td>
+                <td>UPTET</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="m4" role="tabpanel" aria-labelledby="profile-tab">
+      <table class="table">
+          <tbody>
+            <tr>
+                <td>IBPS PO</td>
+                <td>IBPS PO</td>
+                <td>IBPS Clerk</td>
+                <td>IBPS Clerk</td>
+                <td>RRB NTPC</td>
+                <td>RRB NTPC</td>
+            </tr>
+            <tr>
+                <td>SSC CGL	</td>
+                <td>SSC CGL</td>
+                <td>SSC CHSL</td>
+                <td> SSC CHSL</td>
+                <td> SSC JE</td>
+                <td> SSC JE</td>
+            </tr>
+            <tr>
+                <td>RRB Group D	</td>
+                <td>RRB Group D</td>
+                <td>CTET</td>
+                <td>UPTET</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="m5" role="tabpanel" aria-labelledby="contact-tab">
+      <table class="table">
+          <tbody>
+            <tr>
+                <td>IBPS PO</td>
+                <td>IBPS PO</td>
+                <td>IBPS Clerk</td>
+                <td>IBPS Clerk</td>
+                <td>RRB NTPC</td>
+                <td>RRB NTPC</td>
+            </tr>
+            <tr>
+                <td>SSC CGL	</td>
+                <td>SSC CGL</td>
+                <td>SSC CHSL</td>
+                <td> SSC CHSL</td>
+                <td> SSC JE</td>
+                <td> SSC JE</td>
+            </tr>
+            <tr>
+                <td>RRB Group D	</td>
+                <td>RRB Group D</td>
+                <td>CTET</td>
+                <td>UPTET</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="m6" role="tabpanel" aria-labelledby="profile-tab">
+      <table class="table">
+          <tbody>
+            <tr>
+                <td>IBPS PO</td>
+                <td>IBPS PO</td>
+                <td>IBPS Clerk</td>
+                <td>IBPS Clerk</td>
+                <td>RRB NTPC</td>
+                <td>RRB NTPC</td>
+            </tr>
+            <tr>
+                <td>SSC CGL	</td>
+                <td>SSC CGL</td>
+                <td>SSC CHSL</td>
+                <td> SSC CHSL</td>
+                <td> SSC JE</td>
+                <td> SSC JE</td>
+            </tr>
+            <tr>
+                <td>RRB Group D	</td>
+                <td>RRB Group D</td>
+                <td>CTET</td>
+                <td>UPTET</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>   
+</section>
+
+ 
+         
+<section class="bg_awards"> 
+  <div class="container">
+  <div class="row">
+   <div class="awards ">
+     <h2>Why <span style="color:#f09921;">X</span><span style="color:#cc3064;">am</span>winner?</h2>
+     <hr> 
+   </div>
+   <div class="col-sm-6">
+    <div class="awards ff">
+        <h3>Learn & Win!</h3>
+        <p>Xamwinner conducts a nationwide test marathon
+        to recognize a prodigy in you... <a href="#" class="READ_more">READ MORE ></a> </p>        
+        <a class="ENROLL_NOW" href="#">ENROLL NOW</a>
+   </div>
+   </div>
+   <div class="col-sm-6">
+    <div class="awardspic">
+     <img src="img/awards.png" alt="">
+    </div>
+   </div>
+ </div>
+</div>
+</section>  
+
+<section class="bg_Updates"> 
+  <div class="container">
+  <div class="row">
+   <div class="Updates ">
+     <h2>Latest Updates</h2>
+     <hr> 
+     <div class="bgborder">
+     <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#a1" role="tab" aria-controls="home" aria-selected="true">Results</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#a2" role="tab" aria-controls="profile" aria-selected="false">Notifications</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#a3" role="tab" aria-controls="contact" aria-selected="false">Admit Cards</a>
+      </li>
+
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="a1" role="tabpanel" aria-labelledby="home-tab"> 
+          <ul>
+           <li>NABARD Development Assistant Prelims Result 2019 Out, Check Here! <span>5 min ago</span></li>
+           <li>SSC MTS Result 2019 Out, Direct Link to Check SSC MTS Paper 1 Result PDF <span>24 Oct 2019</span></li>
+           <li>AEES TGT PGT PRT Result 2019 Out, Check AEES Cut Off Marks Here <span>10 Oct 2019</span></li>
+           <li>EPFO SSA Scorecard 2019 Out, Check EPFO SSA Prelims Marks! <span>15 Sep 2019</span></li>
+           <li>EPFO Assistant Scorecard 2019 Out, Check EPFO Assistant Prelims Marks! <span>10 Aug 2019</span></li>
+          </ul>
+      </div>
+      <div class="tab-pane fade" id="a2" role="tabpanel" aria-labelledby="profile-tab">
+        <ul>
+           <li>NABARD Development Assistant Prelims Result 2019 Out, Check Here! <span>5 min ago</span></li>
+           <li>SSC MTS Result 2019 Out, Direct Link to Check SSC MTS Paper 1 Result PDF <span>24 Oct 2019</span></li>
+           <li>AEES TGT PGT PRT Result 2019 Out, Check AEES Cut Off Marks Here <span>10 Oct 2019</span></li>
+           <li>EPFO SSA Scorecard 2019 Out, Check EPFO SSA Prelims Marks! <span>15 Sep 2019</span></li>
+           <li>EPFO Assistant Scorecard 2019 Out, Check EPFO Assistant Prelims Marks! <span>10 Aug 2019</span></li>
+          </ul>
+      </div>
+      <div class="tab-pane fade" id="a3" role="tabpanel" aria-labelledby="contact-tab">
+         <ul>
+           <li>NABARD Development Assistant Prelims Result 2019 Out, Check Here! <span>5 min ago</span></li>
+           <li>SSC MTS Result 2019 Out, Direct Link to Check SSC MTS Paper 1 Result PDF <span>24 Oct 2019</span></li>
+           <li>AEES TGT PGT PRT Result 2019 Out, Check AEES Cut Off Marks Here <span>10 Oct 2019</span></li>
+           <li>EPFO SSA Scorecard 2019 Out, Check EPFO SSA Prelims Marks! <span>15 Sep 2019</span></li>
+           <li>EPFO Assistant Scorecard 2019 Out, Check EPFO Assistant Prelims Marks! <span>10 Aug 2019</span></li>
+          </ul>
+      </div>
+    </div>
+    </div>
+   </div>
+ </div>
+</div>
+</section>  
+
+<section class="bg_app"> 
+  <div class="container">
+  <div class="row">
+   <div class="col-sm-6">
+   <div class="app_pic">
+    <img src="img/app.png" alt="">
+   </div>
+   </div>
+   <div class="col-sm-6">
+   <div class="app ">
+     <p>GET THE XAMWINNER APP</p>
+     <h2>Start your preparation now!</h2>
+     <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control" type="text" placeholder="Enter your phone number" aria-label="Search">
+        <button class="form-control" type="submit">GET STARTED</button>
+      </form>
+     <ul>
+      <li><a href="#"><img src="img/app_store1.png" alt="" title=""></a></li>
+      <li><a href="#"><img src="img/app_store2.png" alt="" title=""></a></li>
+     </ul> 
+   </div>
+   </div>
+  </div>
+ </div>
+</section> 
+
+<footer>
+<div class="container">
+<div class="row spacefoot">
+ <div class="col-sm-2">
+  <div class="fot">
+   <h2>Quick Links</h2>
+   <ul>
+    <li> <a href="#">Career Power</a></li>
+    <li> <a href="#">E-Books</a></li>
+    <li> <a href="#">Test Series</a></li>
+    <li> <a href="#">Publications</a></li>
+    <li> <a href="#">Video Courses</a></li>
+    <li> <a href="#">Live Batches</a></li>
+   </ul>
+  </div>
+ </div>
+ <div class="col-sm-2">
+  <div class="fot">
+   <h2>Exams</h2>
+   <ul>
+    <li> <a href="#">Career Power</a></li>
+    <li> <a href="#">E-Books</a></li>
+    <li> <a href="#">Test Series</a></li>
+    <li> <a href="#">Publications</a></li>
+    <li> <a href="#">Video Courses</a></li>
+    <li> <a href="#">Live Batches</a></li>
+   </ul>
+  </div>
+ </div>
+ <div class="col-sm-2">
+  <div class="fot">
+   <h2>Study Materials	</h2>
+   <ul>
+    <li> <a href="#">Career Power</a></li>
+    <li> <a href="#">E-Books</a></li>
+    <li> <a href="#">Test Series</a></li>
+    <li> <a href="#">Publications</a></li>
+    <li> <a href="#">Video Courses</a></li>
+    <li> <a href="#">Live Batches</a></li>
+   </ul>
+  </div>
+ </div>
+ <div class="col-sm-2">
+  <div class="fot">
+   <h2>Trending Exams</h2>
+   <ul>
+    <li> <a href="#">Career Power</a></li>
+    <li> <a href="#">E-Books</a></li>
+    <li> <a href="#">Test Series</a></li>
+    <li> <a href="#">Publications</a></li>
+    <li> <a href="#">Video Courses</a></li>
+    <li> <a href="#">Live Batches</a></li>
+   </ul>
+  </div>
+ </div>
+ <div class="col-sm-2">
+  <div class="fot">
+   <h2>Other Links</h2>
+   <ul>
+    <li> <a href="#">Career Power</a></li>
+    <li> <a href="#">E-Books</a></li>
+    <li> <a href="#">Test Series</a></li>
+    <li> <a href="#">Publications</a></li>
+    <li> <a href="#">Video Courses</a></li>
+    <li> <a href="#">Live Batches</a></li>
+   </ul>
+  </div>
+ </div>
+ <div class="col-sm-2">
+  <div class="fot">
+   <h2>Test Series</h2>
+   <ul>
+    <li> <a href="#">Career Power</a></li>
+    <li> <a href="#">E-Books</a></li>
+    <li> <a href="#">Test Series</a></li>
+    <li> <a href="#">Publications</a></li>
+    <li> <a href="#">Video Courses</a></li>
+    <li> <a href="#">Live Batches</a></li>
+   </ul>
+  </div>
+ </div>
+   <div class="col-sm-12">
+  <div class="fot_social">
+   <ul>
+        <li> <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+        <li> <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li> <a href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a></li>
+   </ul>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="subfooter">
+  <div class="container">
+    <div class="subfot">
+   <ul>
+        <li> <a href="#">About Us</a></li>
+        <li> <a href="#">Contact Us</a></li>
+        <li> <a href="#">FAQs</a></li>
+        <li> <a href="#">Terms and Conditions</a></li>
+        <li> <a href="#">Privacy Policy</a></li>
+        <li> <a href="#">Sitemap</a></li>
+        <li> <a href="#">Xamwinner © 2020</a></li>
+   </ul>
+  </div>
+  </div>
+</div>
+</footer>   
+
+   
+<!--BOTTOM TO TOP ARROW START HERE-->
+<div class="scrolltotop">
+<i class="fas fa-arrow-circle-up"></i>
+</div>
+<!--BOTTOM TO TOP ARROW AND HERE-->
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+ <!--BOTTOM TO TOP ARROW START HERE-->
+<script>
+$('.scrolltotop').on('click', function() {
+          $('html, body').animate({ scrollTop: 0 }, 500);
+          return false;
+      });
+
+      $(document).scroll(function() {
+          var y = $(this).scrollTop();
+          if (y > 300) {
+              $('.scrolltotop').fadeIn();
+          } else {
+              $('.scrolltotop').fadeOut();
+          }
+      });
+</script>
+<!--BOTTOM TO TOP ARROW AND HERE-->
+
+<script>
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
+
+$(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+        $this.find($dropdownMenu).addClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    $dropdown.off("mouseenter mouseleave");
+  }
+});
+</script>
+
+<script>
+  $("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-close2").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-toggle2").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-close3").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-toggle3").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-close4").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-toggle4").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-close5").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-toggle5").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+</script>
+
+<script>
+var divs = ["Menu1", "Menu2", "Menu3", "Menu4"];
+var visibleDivId = null;
+function toggleVisibility(divId) {
+  if(visibleDivId === divId) {
+    //visibleDivId = null;
+  } else {
+    visibleDivId = divId;
+  }
+  hideNonVisibleDivs();
+}
+function hideNonVisibleDivs() {
+  var i, divId, div;
+  for(i = 0; i < divs.length; i++) {
+    divId = divs[i];
+    div = document.getElementById(divId);
+    if(visibleDivId === divId) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  }
+}
+</script>
+ 
+    
+  </body>
+</html>
+
+
