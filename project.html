@@ -13,7 +13,23 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <style type="text/css">
+      @media(min-width: 768px)
+      {
+        #verticle-bar{
+         top:0;
+         height: 75%;
+        }
+
+        .sidenav{
+          top: 0;
+          height: 75%;
+        }
+
+      }
+    </style>
     <script src="https://use.fontawesome.com/a943a62ee4.js"></script>
+
     <title>Xamwinner - Home</title>
 
   </head>
@@ -87,7 +103,7 @@
     <!--SidePanel-->
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#" style="color:#F4D03F; :hover{color:"grey";}"><i class="fa fa-bullseye" ></i>AIM</a>
+      <a href="#" class="hidden-xs" style="color:#F4D03F;"><i class="fa fa-bullseye" ></i>AIM</a>
       <a href="# " style="color:#F4D03F;"><i class="fa fa-line-chart"></i>Progress</a>
       <a href="#" style="color:#F4D03F;"><i class="fa fa-trophy"></i>Awards</a>
       <a href="#" style="color:#F4D03F;"><i class="fa fa-question-circle-o"></i>Doubts</a>
@@ -98,8 +114,8 @@
     <!--SidePanel Ends-->
 
     <!--Verticle Toolbar-->
-      <div id ="verticle-bar" class="w3-sidebar w3-bar-block w3-black w3-xxlarge" style="width:1.7em; height: 80%; position: absolute; top: 0;">
-        <a onclick="openNav()"><i class="fa fa-bars" style="color:#F4D03F;"></i></a>
+      <div id ="verticle-bar" class="w3-sidebar w3-bar-block w3-black w3-xxlarge" style="width:1.7em; position: absolute; ">
+        <a onclick="openNav()"><i class="fa fa-bars" style="color:#F4D03F;     padding-left: 30%;"></i></a>
         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-bullseye" style="color:#F4D03F;"></i></a>
         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-line-chart" style="color:#F4D03F;"></i></a> 
         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy" style="color:#F4D03F;"></i></a> 
@@ -113,6 +129,7 @@
       <!--Verticle ToolbarEnd-->
 
   </header>
+  
   <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
