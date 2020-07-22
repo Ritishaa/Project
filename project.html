@@ -143,6 +143,77 @@
         </div>
         <h4 style="color: #B4B0B2;">Sectional Test Series</h4>
 
+        <!--Different Boxes-->
+        <div class="wrapper">
+          <div class="box" style="margin-top: 4%;">
+              <div style="color: #4A6A93; padding:5px; margin-bottom:3px; font-size:16px;"><strong>General English</strong></div>
+              <div class="dropdown">
+                      <button type="button" id="boxbutton" class="dropbtn" onclick="myFunctionD()">Prelims <span class="Arrow down"></span></button>
+                      <div id="Dropdown" class="dd-content">
+                        <a href="#contact">Prelims</a>
+                        <a href="#home">Mains</a>
+                        <a href="#about">Interview</a>
+                      </div>
+              </div>   
+              <div style="font-size:15px; margin:8px 8px 16px;">Test Token&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:20px; color:#B4B0B2;">30/30</span> </div>
+              <div><a class="score-btn" style="margin-top:10px;" href="#">Score</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #DF3F92;">Review</span></div>
+              <div float:left>05</div><div float:left style ="font-size:10px">/</div>
+<div>35</div>
+              
+              <div class="attempt-bar"><p><a href="#">ATTEMPT NOW</a></p></div>
+            </div>
+
+            <div class="box" style="margin-top: 4%; ">
+              <div style="color: #4A6A93; padding:5px; margin-bottom:3px; font-size:16px;"><strong>General English</strong></div>
+              <div class="dropdown">
+                      <button type="button" id="boxbutton" class="dropbtn db" onclick="myFunctionD()">Prelims <span class="Arrow down"></span></button>
+                      <div id="Dropdown" class="dd-content">
+                        <a href="#contact">Prelims</a>
+                        <a href="#home">Mains</a>
+                        <a href="#about">Interview</a>
+                      </div>
+              </div>   
+              <div style="font-size:15px; margin:8px 8px 16px;">Test Token&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:20px; color:#B4B0B2;">30/30</span> </div>
+              <div><a class="score-btn" style="margin-top:10px;" href="#">Score</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #DF3F92;">Review</span></div>
+              
+              <div class="attempt-bar"><p><a href="#">ATTEMPT NOW</a></p></div>
+            </div>
+
+                        <div class="box" style="margin-top: 4%; ">
+              <div style="color: #4A6A93; padding:5px; margin-bottom:3px; font-size:16px;"><strong>General English</strong></div>
+              <div class="dropdown">
+                      <button type="button" id="boxbutton" class="dropbtn db" onclick="myFunctionD()">Prelims <span class="Arrow down"></span></button>
+                      <div id="Dropdown" class="dd-content">
+                        <a href="#contact">Prelims</a>
+                        <a href="#home">Mains</a>
+                        <a href="#about">Interview</a>
+                      </div>
+              </div>   
+              <div style="font-size:15px; margin:8px 8px 16px;">Test Token&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:20px; color:#B4B0B2;">30/30</span> </div>
+              <div><a class="score-btn" style="margin-top:10px;" href="#">Score</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #DF3F92;">Review</span></div>
+              
+              <div class="attempt-bar"><p><a href="#">ATTEMPT NOW</a></p></div>
+            </div>
+
+                        <div class="box" style="margin-top: 4%; ">
+              <div style="color: #4A6A93; padding:5px; margin-bottom:3px; font-size:16px;"><strong>General English</strong></div>
+              <div class="dropdown">
+                      <button type="button" id="boxbutton" class="dropbtn db" onclick="myFunctionD()">Prelims <span class="Arrow down"></span></button>
+                      <div id="Dropdown" class="dd-content">
+                        <a href="#contact">Prelims</a>
+                        <a href="#home">Mains</a>
+                        <a href="#about">Interview</a>
+                      </div>
+              </div>   
+              <div style="font-size:15px; margin:8px 8px 16px;">Test Token&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:20px; color:#B4B0B2;">30/30</span> </div>
+              <div><a class="score-btn" style="margin-top:10px;" href="#">Score</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #DF3F92;">Review</span></div>
+              
+              <div class="attempt-bar"><p><a href="#">ATTEMPT NOW</a></p></div>
+            </div>
+
+        </div>
+
+
 
 
       </div>  <!--Container div ends here-->
@@ -184,6 +255,24 @@
     window.onclick = function(event) {
       if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+
+    function myFunctionD() {
+      document.getElementById("Dropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dd-content");
         var i;
         for (i = 0; i < dropdowns.length; i++) {
           var openDropdown = dropdowns[i];
