@@ -154,7 +154,7 @@ div.sidenav a {
   background-color: white;
   color: #e48d07;
   border-radius:5px;
-  padding: 8px 16px;
+  padding: 8px 40px;
   font-size: 16px;
   border: solid #e48d07;
   cursor: pointer;
@@ -213,8 +213,9 @@ div.sidenav a {
 .button {           /*Previous Year Button*/
   background-color: #DF3F92;
   border-radius: 20px;
+  border: 1.5px solid #DF3F92;
   color: white;
-  padding: 6px 40px;
+  padding: 6px 50px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -222,17 +223,24 @@ div.sidenav a {
   cursor: pointer;
 }
 
-.MockTest{
+.MockTest{           /*mock test button*/
   background-color: white;
   border: 1.5px solid #DF3F92;
   border-radius: 20px;
   color: #DF3F92;
-  padding: 6px 40px;
+  padding: 6px 45px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin: 4px 8px;
   cursor: pointer;
+}
+
+.button a:hover, .MockTest a:hover{
+  text-decoration: none;
+  border: solid #e48d07;
+  color: #e48d07;
+  border-radius:20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -249,7 +257,6 @@ div.sidenav a {
   .sidenav{
     top: 0;
     height: 75%;
-    ra
   }
 }
 
@@ -258,10 +265,24 @@ div.sidenav a {
   #main-content{
     margin-left: 15%;
   }
-  .MockTest, .button{
+  .dropbtn{
+    padding: 8px 25px;
     margin: 0;
+    display: block;
+    margin: 5px 40px;
+
+  }
+
+  .MockTest{
+    margin: 0;
+    display: block;
+    margin: 5px 35px;
   }
   
-
+ .button{
+    margin: 0;
+    display: block;
+    margin: 5px 25px;
+ }
  
 }
