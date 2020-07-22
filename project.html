@@ -7,128 +7,159 @@
     
     <link rel="icon" href="img/favicon.png" sizes="25X41">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="css/style.css">
+   <!-- <link rel="stylesheet" href="css/style.css">-->
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
     <style type="text/css">
-      @media(min-width: 768px)
-      {
-        #verticle-bar{
-         top:0;
-         height: 75%;
-        }
-
-        .sidenav{
-          top: 0;
-          height: 75%;
-        }
-
-      }
+      
     </style>
     <script src="https://use.fontawesome.com/a943a62ee4.js"></script>
 
     <title>Xamwinner - Home</title>
-
+    
   </head>
-  <body>
-  
-  <header>
-   <div class="container">
-      <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" title="Xamwinner"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-           <form class="form-inline">
-            <select class="form-control">
-             <option selected >ALL</option>
-             <option>1</option>
-             <option>2</option>
-            </select>
-            <input class="form-control" type="text" placeholder="Search here" aria-label="Search">
-            <button class="icon" type="submit"><i class="fas fa-search"></i></button>
-          </form>
-          <ul class="navbar-nav mr-auto">
-            <li class="dropdown nav-link">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prepare for <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-            <li class="dropdown nav-link">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contest & Win <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-            <li class="nav-item vf" style="padding-top: 3px;">
-              <a class="nav-link" href="#">Our Specials</a>
-            </li>
-            <li class="dropdown nav-link">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Latest News <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div> <!--Collaspable menu ends-->
-         <img src="img_avatar75.png" alt="Avatar" class="avatar avatar-user" >
-          
-      </nav>
-    </div>
-
-
-    <!--SidePanel-->
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#" class="hidden-xs" style="color:#F4D03F;"><i class="fa fa-bullseye" ></i>AIM</a>
-      <a href="# " style="color:#F4D03F;"><i class="fa fa-line-chart"></i>Progress</a>
-      <a href="#" style="color:#F4D03F;"><i class="fa fa-trophy"></i>Awards</a>
-      <a href="#" style="color:#F4D03F;"><i class="fa fa-question-circle-o"></i>Doubts</a>
-      <a href="#" style="color:#F4D03F;"><i class="fa fa-youtube-play"></i>Resume Lectures</a>
-      <a href="#" style="color:#F4D03F;"><i class="fa fa-pencil-square-o"></i>Notes</a>
-      <a href="#"><i class="fa fa-cog"></i>Settings</a>
-    </div>
-    <!--SidePanel Ends-->
-
-    <!--Verticle Toolbar-->
-      <div id ="verticle-bar" class="w3-sidebar w3-bar-block w3-black w3-xxlarge" style="width:1.7em; position: absolute; ">
-        <a onclick="openNav()"><i class="fa fa-bars" style="color:#F4D03F;     padding-left: 30%;"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-bullseye" style="color:#F4D03F;"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-line-chart" style="color:#F4D03F;"></i></a> 
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy" style="color:#F4D03F;"></i></a> 
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-question-circle-o" style="color:#F4D03F;"></i></a> 
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-youtube-play" style="color:#F4D03F;"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-pencil-square-o" style="color:#F4D03F;"></i></a> 
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog" style="color:grey;"></i></a> 
+  <body style="background-color:#EBE9EA;">
+    
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" title="Xamwinner"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+             <form class="form-inline">
+              <select class="form-control">
+               <option selected >ALL</option>
+               <option>1</option>
+               <option>2</option>
+              </select>
+              <input class="form-control" type="text" placeholder="Search here" aria-label="Search">
+              <button class="icon" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <ul class="navbar-nav mr-auto">
+              <li class="dropdown nav-link">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prepare for <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-link">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contest & Win <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li class="nav-item vf" style="padding-top: 3px;">
+                <a class="nav-link" href="#">Our Specials</a>
+              </li>
+              <li class="dropdown nav-link">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Latest News <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div> <!--Collaspable menu ends-->
+           <img src="img_avatar75.png" alt="Avatar" class="avatar avatar-user" >
+            
+        </nav>
       </div>
 
-      <div style="margin-left:70px">
-      <!--Verticle ToolbarEnd-->
 
-  </header>
+      <!--SidePanel-->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="hidden-xs" style="color:#F4D03F;"><i class="fa fa-bullseye" ></i>AIM</a>
+        <a href="# " style="color:#F4D03F;"><i class="fa fa-line-chart"></i>Progress</a>
+        <a href="#" style="color:#F4D03F;"><i class="fa fa-trophy"></i>Awards</a>
+        <a href="#" style="color:#F4D03F;"><i class="fa fa-question-circle-o"></i>Doubts</a>
+        <a href="#" style="color:#F4D03F;"><i class="fa fa-youtube-play"></i>Resume Lectures</a>
+        <a href="#" style="color:#F4D03F;"><i class="fa fa-pencil-square-o"></i>Notes</a>
+        <a href="#"><i class="fa fa-cog"></i>Settings</a>
+      </div>
+      <!--SidePanel Ends-->
+
+      <!--Verticle Toolbar-->
+        <div id ="verticle-bar" class="w3-sidebar w3-bar-block w3-black w3-xxlarge" style="width:1.7em; position: absolute; ">
+          <a onclick="openNav()"><i class="fa fa-bars" style="color:#F4D03F;     padding-left: 30%;"></i></a>
+          <a href="#" class="w3-bar-item w3-button"><i class="fa fa-bullseye" style="color:#F4D03F;"></i></a>
+          <a href="#" class="w3-bar-item w3-button"><i class="fa fa-line-chart" style="color:#F4D03F;"></i></a> 
+          <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy" style="color:#F4D03F;"></i></a> 
+          <a href="#" class="w3-bar-item w3-button"><i class="fa fa-question-circle-o" style="color:#F4D03F;"></i></a> 
+          <a href="#" class="w3-bar-item w3-button"><i class="fa fa-youtube-play" style="color:#F4D03F;"></i></a>
+          <a href="#" class="w3-bar-item w3-button"><i class="fa fa-pencil-square-o" style="color:#F4D03F;"></i></a> 
+          <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog" style="color:grey;"></i></a> 
+        </div>
+
+        <div style="margin-left:70px"></div>
+        <!--Verticle ToolbarEnd-->
+    </header>
+
+    <div style="min-height: 120px;"></div>
+
+
+    <div id="main-content">
+      <div class="container">
+        <div class="row">
+          <ul>
+            <li class="dropdown" style="display: inline-block;">
+            <button type="button" class="dropbtn" onclick="myFunction()">Select Exam <span class="arrow down"></span></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+            </div>
+            </li>
+            <li style="display: inline-block;">
+              <a href="#" class="button">Previous Year</a>
+            </li>
+            <li style="display: inline-block;">
+              <a href="#" class="MockTest">Mock Test</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   <script>
     function openNav() {
@@ -138,6 +169,26 @@
     /* Set the width of the side navigation to 0 */
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
+    }
+
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
     }
   </script>
 
