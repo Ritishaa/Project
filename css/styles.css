@@ -160,10 +160,10 @@ div.sidenav a {
   cursor: pointer;
 }
 
-.dropbtn:hover,{
-  border: solid #e48d07;
-  color: #e48d07;
-  border-radius:20px;
+.dropbtn:hover{
+  
+  background-color: #f1f1f1;
+  
 }
 
 .dropdown {
@@ -236,14 +236,14 @@ div.sidenav a {
   cursor: pointer;
 }
 
-.button a:hover , .MockTest a:hover{
+.button:hover ,.button:link, .MockTest:hover{
   text-decoration: none;
-  border: solid #e48d07;
-  color: #e48d07;
+ border: 1.5px solid #1d2c5d;
+  color: #1d2c5d;
   border-radius:20px;
 }
 
-/*Boxex*/
+/*Boxes*/
 
 .box{
   float: left;
@@ -252,7 +252,8 @@ div.sidenav a {
   width:13em;
   background-color: white;
   border-radius: 5px;
-  margin-right: 7%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 
 .attempt-bar{
@@ -264,6 +265,11 @@ div.sidenav a {
     border-radius: 4px;
     text-align:center;
     font-size: 16px;
+}
+
+.attempt-bar a{
+ 
+  font-size: 18px;
 }
 .attempt-bar a:link, .attempt-bar a:visited{
   text-decoration: none;
@@ -283,7 +289,7 @@ div.sidenav a {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 8px;
+    margin: 2px 6px;
     cursor: pointer;
 }
 
@@ -351,6 +357,124 @@ div.sidenav a {
 .show {
   display: block;
 }
+
+.subj-heading{
+  color: #4A6A93; 
+  padding:5px; 
+  margin-bottom:3px; 
+  font-size:16px;
+}
+
+.test-token{
+  font-size:15px; 
+  margin:4px 8px;
+}
+
+.test-token span{
+  font-size:20px; 
+  color:#B4B0B2;
+}
+
+
+.wrapper:after{  
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#testimonials:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='RGB(199, 21, 133)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='RGB(199, 21, 133)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/*Main page Css Ends**/
+
+
+/*FOOTER SECTION CSS START*/
+footer{
+  margin-top: 10%;
+  background:#1d2c5d;
+} 
+.spacefoot{
+  padding:35px 0;
+}
+.fot h2{
+  font-size:16px;
+  color:#fff;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+.fot ul{
+  padding:0;
+}
+.fot ul li {
+  list-style:none;
+}
+.fot ul li a{
+  font-size:14px;
+  color:#657dca;
+  font-weight:500;
+  line-height:26px;
+}
+.fot ul li a:hover{
+  color:#ffbb3e;
+  text-decoration:none;
+}
+.fot_social ul{
+  float:right;
+  padding-right:70px;
+}
+.fot_social ul li{
+  display:inline-block;
+}
+.fot_social ul li a{
+  background:#faad51;
+  color:#1d2c5d;
+  width:30px;
+  height:30px;
+  line-height:32px;
+  text-align:center;
+  border-radius:5px;
+  display:inline-block;
+}
+.fot_social ul li a i{
+  font-size:20px;
+}
+.subfooter {
+  background:#21336d;
+  padding:15px;
+}
+.subfooter ul {
+  padding:0;
+  margin:0;
+}
+.subfooter ul li{
+  display:inline-block;
+  padding-right:20px;
+}
+.subfooter ul li a{
+  color:#fff;
+  font-size:13px;
+  font-weight:300;
+  font-family: 'Arkibal Lt';
+}
+.subfooter ul li a:hover{
+  color:#ffbb3e;
+  text-decoration:none;
+}
+/*FOOTER SECTION CSS END*/
+
+
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
