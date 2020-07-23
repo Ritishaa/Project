@@ -154,16 +154,16 @@ div.sidenav a {
   background-color: white;
   color: #e48d07;
   border-radius:5px;
-  padding: 8px 16px;
+  padding: 8px 40px;
   font-size: 16px;
   border: solid #e48d07;
   cursor: pointer;
 }
 
-.dropbtn:hover,{
-  border: solid #e48d07;
-  color: #e48d07;
-  border-radius:20px;
+.dropbtn:hover{
+  
+  background-color: #f1f1f1;
+  
 }
 
 .dropdown {
@@ -173,7 +173,7 @@ div.sidenav a {
 
 .dropdown-content {
   margin-top: 8px;
-  box-shadow: grey;
+  box-shadow:0 0 20px #ddd;
   padding: 10px 0;
   display: none;
   position: absolute;
@@ -213,8 +213,9 @@ div.sidenav a {
 .button {           /*Previous Year Button*/
   background-color: #DF3F92;
   border-radius: 20px;
+  border: 1.5px solid #DF3F92;
   color: white;
-  padding: 6px 40px;
+  padding: 6px 50px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -222,18 +223,257 @@ div.sidenav a {
   cursor: pointer;
 }
 
-.MockTest{
+.MockTest{           /*mock test button*/
   background-color: white;
   border: 1.5px solid #DF3F92;
   border-radius: 20px;
   color: #DF3F92;
-  padding: 6px 40px;
+  padding: 6px 45px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin: 4px 8px;
   cursor: pointer;
 }
+
+.button:hover ,.button:link, .MockTest:hover{
+  text-decoration: none;
+ border: 1.5px solid #1d2c5d;
+  color: #1d2c5d;
+  border-radius:20px;
+}
+
+/*Boxes*/
+
+.box{
+  float: left;
+  position: relative;
+  height:18em;
+  width:13em;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.attempt-bar{
+  position: absolute;
+    bottom:0;
+    height:18%;
+    width:100%;
+    background-color: #1d2c5d;
+    border-radius: 4px;
+    text-align:center;
+    font-size: 16px;
+}
+
+.attempt-bar a{
+ 
+  font-size: 18px;
+}
+.attempt-bar a:link, .attempt-bar a:visited{
+  text-decoration: none;
+    color:white;
+    margin-bottom: 5px;
+}
+
+.attempt-bar a:hover{
+  color: #F4D03F;
+}
+
+.score-btn{
+    border: 1.5px solid #DF3F92;
+    border-radius: 20px;
+    color:black;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 6px;
+    cursor: pointer;
+}
+
+.score-btn:hover, .score-btn:visited{
+  background-color:#F7DC6F;
+  text-decoration: none;
+}
+
+#boxbutton {
+  background-color: white;
+  color: black;
+  border-radius:5px;
+  padding: 4px 10px;
+  font-size: 13px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-left:10px;
+}
+
+#boxbutton:hover{
+  background-color: #f1f1f1;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dd-content {
+  margin-top: 8px;
+  box-shadow:0 0 5px #1d2c5d;
+  padding: 10px 0;
+  display: none;
+  position: absolute;
+  border: solid #1d2c5d;
+  border-width:1px;
+  border-radius:7px;
+  background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dd-content a {
+  font-size:16px;
+  color: black;
+  padding: 2px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {color: #e48d07;}
+.Arrow {         
+  border: 1px solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.show {
+  display: block;
+}
+
+.subj-heading{
+  color: #4A6A93; 
+  padding:5px; 
+  margin-bottom:3px; 
+  font-size:16px;
+}
+
+.test-token{
+  font-size:15px; 
+  margin:4px 8px;
+}
+
+.test-token span{
+  font-size:20px; 
+  color:#B4B0B2;
+}
+
+
+.wrapper:after{  
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#testimonials:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='RGB(199, 21, 133)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='RGB(199, 21, 133)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/*Main page Css Ends**/
+
+
+/*FOOTER SECTION CSS START*/
+footer{
+  margin-top: 10%;
+  background:#1d2c5d;
+} 
+.spacefoot{
+  padding:35px 0;
+}
+.fot h2{
+  font-size:16px;
+  color:#fff;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+.fot ul{
+  padding:0;
+}
+.fot ul li {
+  list-style:none;
+}
+.fot ul li a{
+  font-size:14px;
+  color:#657dca;
+  font-weight:500;
+  line-height:26px;
+}
+.fot ul li a:hover{
+  color:#ffbb3e;
+  text-decoration:none;
+}
+.fot_social ul{
+  float:right;
+  padding-right:70px;
+}
+.fot_social ul li{
+  display:inline-block;
+}
+.fot_social ul li a{
+  background:#faad51;
+  color:#1d2c5d;
+  width:30px;
+  height:30px;
+  line-height:32px;
+  text-align:center;
+  border-radius:5px;
+  display:inline-block;
+}
+.fot_social ul li a i{
+  font-size:20px;
+}
+.subfooter {
+  background:#21336d;
+  padding:15px;
+}
+.subfooter ul {
+  padding:0;
+  margin:0;
+}
+.subfooter ul li{
+  display:inline-block;
+  padding-right:20px;
+}
+.subfooter ul li a{
+  color:#fff;
+  font-size:13px;
+  font-weight:300;
+  font-family: 'Arkibal Lt';
+}
+.subfooter ul li a:hover{
+  color:#ffbb3e;
+  text-decoration:none;
+}
+/*FOOTER SECTION CSS END*/
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -249,7 +489,6 @@ div.sidenav a {
   .sidenav{
     top: 0;
     height: 75%;
-    ra
   }
 }
 
@@ -258,10 +497,27 @@ div.sidenav a {
   #main-content{
     margin-left: 15%;
   }
-  .MockTest, .button{
+  .dropbtn{
+    padding: 8px 25px;
     margin: 0;
+    display: block;
+    margin: 5px 40px;
+
+  }
+
+  .MockTest{
+    margin: 0;
+    display: block;
+    margin: 5px 35px;
   }
   
-
+ .button{
+    margin: 0;
+    display: block;
+    margin: 5px 25px;
+ }
+ #boxbutton{
+    padding: 8px;
+ }
  
 }
